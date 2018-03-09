@@ -35,8 +35,6 @@ public class Server {
                 outputStream.flush();
             }
             System.out.println("Клиент отключился от сервера");
-
-
         } catch (IOException e){
             e.printStackTrace();
         }
